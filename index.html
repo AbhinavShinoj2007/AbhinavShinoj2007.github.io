@@ -3,41 +3,194 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shift - Home</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
-    header { background: #2c3e50; color: #fff; padding: 20px; text-align: center; }
-    nav { background: #34495e; padding: 10px; text-align: center; }
-    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    .intro { padding: 30px; text-align: center; }
-    footer { background: #2c3e50; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
-  </style>
+  <title>Abhinav Shinoj | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Shift</h1>
-    <p>Your trusted labour duty assignment service</p>
+    <div class="container">
+      <div class="header-content">
+        <img src="https://avatars.githubusercontent.com/u/231864983?v=4" alt="Abhinav Shinoj" class="profile-pic">
+        <h1>Hi, I'm Abhinav Shinoj 👋</h1>
+        <p class="subtitle">Computer Science & Engineering Student | Web Developer | Problem Solver</p>
+        <div class="header-buttons">
+          <a href="https://github.com/AbhinavShinoj2007" target="_blank" class="btn btn-primary">
+            <i class="fab fa-github"></i> Visit My GitHub
+          </a>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="jobs.html">Jobs</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a passionate first-year CSE student with a love for programming, electronics, and web development.
+            I enjoy building innovative projects, troubleshooting complex code, and deploying beautiful websites with GitHub Pages.
+          </p>
+          <p>
+            My goal is to create impactful digital solutions that make a difference. I'm constantly learning new technologies and best practices.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="intro">
-    <h2>Welcome to Shift</h2>
-    <p>Shift is a platform designed to help labourers easily find their jobs for assigning duties. 
-       Here you can check your shift timing (Morning, Noon, Night), location of work, salary offered, 
-       type of job, and contact details for clarification.</p><img src="img.jpg" 
-     srcset="img.jpg 480w, img.jpg 768w, img.jpg 1200w" 
-     sizes="(max-width: 768px) 80vw, 100vw" 
-     alt="Responsive image">
-    <p>Our mission is to connect workers with opportunities in a clear and organized way.</p>
-  </div>
+  <!-- Repositories Section -->
+  <section id="repositories" class="repositories-section">
+    <div class="container">
+      <h2>My Repositories</h2>
+      <div class="repositories-grid">
+        <!-- Job Repository -->
+        <div class="repo-card">
+          <div class="repo-header">
+            <i class="fas fa-briefcase repo-icon"></i>
+            <h3>Job Portal</h3>
+          </div>
+          <p class="repo-description">A comprehensive job portal website with HTML pages for job listings, navigation, and contact information.</p>
+          <p class="repo-tech"><strong>🛠️ Tech:</strong> HTML</p>
+          <div class="repo-buttons">
+            <a href="https://abhinavshinoj2007.github.io/Job/" target="_blank" class="btn btn-visit">
+              <i class="fas fa-globe"></i> View Website
+            </a>
+            <a href="https://github.com/AbhinavShinoj2007/Job" target="_blank" class="btn btn-code">
+              <i class="fas fa-code"></i> View Code
+            </a>
+          </div>
+        </div>
 
+        <!-- Joke Generator Repository -->
+        <div class="repo-card">
+          <div class="repo-header">
+            <i class="fas fa-laugh repo-icon"></i>
+            <h3>Joke Generator</h3>
+          </div>
+          <p class="repo-description">Interactive app that fetches and displays random jokes using external APIs with a delightful UI.</p>
+          <p class="repo-tech"><strong>🛠️ Tech:</strong> HTML, CSS, JavaScript</p>
+          <div class="repo-buttons">
+            <a href="https://abhinavshinoj2007.github.io/joke-generator/" target="_blank" class="btn btn-visit">
+              <i class="fas fa-globe"></i> View Website
+            </a>
+            <a href="https://github.com/AbhinavShinoj2007/joke-generator" target="_blank" class="btn btn-code">
+              <i class="fas fa-code"></i> View Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile Repository -->
+        <div class="repo-card">
+          <div class="repo-header">
+            <i class="fas fa-user repo-icon"></i>
+            <h3>Profile Showcase</h3>
+          </div>
+          <p class="repo-description">An elegant profile website showcasing my skills, experience, and featured projects.</p>
+          <p class="repo-tech"><strong>🛠️ Tech:</strong> HTML, CSS</p>
+          <div class="repo-buttons">
+            <a href="https://abhinavshinoj2007.github.io/profile/" target="_blank" class="btn btn-visit">
+              <i class="fas fa-globe"></i> View Website
+            </a>
+            <a href="https://github.com/AbhinavShinoj2007/profile" target="_blank" class="btn btn-code">
+              <i class="fas fa-code"></i> View Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Profilo Repository -->
+        <div class="repo-card">
+          <div class="repo-header">
+            <i class="fas fa-star repo-icon"></i>
+            <h3>Profilo</h3>
+          </div>
+          <p class="repo-description">Your main portfolio website - this repository you're currently browsing with all your projects.</p>
+          <p class="repo-tech"><strong>🛠️ Tech:</strong> HTML, CSS</p>
+          <div class="repo-buttons">
+            <a href="https://abhinavshinoj2007.github.io/profilo/" target="_blank" class="btn btn-visit">
+              <i class="fas fa-globe"></i> View Website
+            </a>
+            <a href="https://github.com/AbhinavShinoj2007/profilo" target="_blank" class="btn btn-code">
+              <i class="fas fa-code"></i> View Code
+            </a>
+          </div>
+        </div>
+
+        <!-- GitHub Pages Repository -->
+        <div class="repo-card">
+          <div class="repo-header">
+            <i class="fab fa-github repo-icon"></i>
+            <h3>GitHub Pages</h3>
+          </div>
+          <p class="repo-description">Your main GitHub Pages site - your personal website hosted directly on GitHub with custom domain support.</p>
+          <p class="repo-tech"><strong>🛠️ Tech:</strong> HTML</p>
+          <div class="repo-buttons">
+            <a href="https://abhinavshinoj2007.github.io/" target="_blank" class="btn btn-visit">
+              <i class="fas fa-globe"></i> View Website
+            </a>
+            <a href="https://github.com/AbhinavShinoj2007/AbhinavShinoj2007.github.io" target="_blank" class="btn btn-code">
+              <i class="fas fa-code"></i> View Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3>Job Portal Website</h3>
+          <p>A comprehensive labor duty management portal focused on usability, branding, and user experience.</p>
+          <a href="https://abhinavshinoj2007.github.io/Job/" target="_blank" class="btn btn-learn">
+            Visit Website →
+          </a>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">
+            <i class="fas fa-laugh"></i>
+          </div>
+          <h3>Joke Generator App</h3>
+          <p>Interactive web application that fetches and displays random jokes using external APIs.</p>
+          <a href="https://abhinavshinoj2007.github.io/joke-generator/" target="_blank" class="btn btn-learn">
+            Visit Website →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p class="contact-intro">Feel free to reach out! I'd love to hear from you.</p>
+      <div class="contact-links">
+        <a href="mailto:your.email@example.com" class="contact-link">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="https://github.com/AbhinavShinoj2007" target="_blank" class="contact-link">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2026 Shift — Connecting labourers with opportunities</p>
+    <p>© 2026 Abhinav Shinoj | Built with ❤️ and GitHub Pages</p>
+    <p class="footer-sub">Crafted with passion for web development</p>
   </footer>
 </body>
 </html>
